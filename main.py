@@ -22,8 +22,8 @@ def draw (txt):
       elif item == 'R':
         right(90)
       else:
-        forward(2)
+        forward(7)
   done()
 
-txt = dracons_curve('Fa', 15)
+txt = dracons_curve('Fa', 9)
 draw(txt)
